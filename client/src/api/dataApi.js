@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/data"
+  // baseURL: "http://localhost:5000/api/data"
+  baseURL: "https://linkedin-task-sigma.vercel.app/api/data"
 });
 
 export const fetchDashboardData = (filters) =>
